@@ -16,7 +16,10 @@ const randomQuote = [
     'Is it for garri or eba?',
     'Get rich or die trying',
     'maintain your steeze no matter what',
-    'if you didnt pay your school fee you will not access to lms "Jerry"'
+    'if you didnt pay your school fee you will not access to lms "Jerry"',
+    'Whatever is worth doing is worth doing well - Zainab 2025(Tinyuka)',
+    'Just eat first - Kara 2023(Tinyuka)',
+    'We will reduce their purchasing power - Abiodun 2025(Tinyuka)',
 ]
 
 const randomQuoteGenerator = () => {
@@ -24,7 +27,8 @@ const randomQuoteGenerator = () => {
     return randomQuote[randomIndex];
 }
 
-schedule.scheduleJob('0 0 * * *', () => {
+schedule.scheduleJob('* * * * *', () => {
+    console.log('Running random quote generator...');
     const quote = randomQuoteGenerator();
 
     console.log(quote)

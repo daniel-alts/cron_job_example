@@ -15,7 +15,8 @@ const randomQuote = [
     'Is it for garri or eba?',
     'Get rich or die trying',
     'maintain your steeze no matter what',
-    'if you didnt pay your school fee you will not access to lms "Jerry"'
+    'if you didnt pay your school fee you will not access to lms "Jerry"',
+    ''
 ]
 
 const randomQuoteGenerator = () => {
