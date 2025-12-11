@@ -16,10 +16,14 @@ const randomQuote = [
     'Is it for garri or eba?',
     'Get rich or die trying',
     'maintain your steeze no matter what',
-    'if you didnt pay your school fee you will not access to lms "Jerry"',
+    'if you didnt pay your school fee you will not access to lms  - Jerry',
     'Whatever is worth doing is worth doing well - Zainab 2025(Tinyuka)',
     'Just eat first - Kara 2023(Tinyuka)',
     'We will reduce their purchasing power - Abiodun 2025(Tinyuka)',
+    'How will you understand Node JS, Without knowing JS - OluwaSegun Adedeji 2025(Baraka)',
+    'people say a lot, so I watch what they do - John Ughiovhe 2025(Baraka)',
+    'surviving is franklin guys, everything else is bullshit - Aderibole Bolade Ayodeji 2025(Baraka)',
+    'Small steps still move you forward - Prestige 2025(Baraka)',
 ]
 
 const randomQuoteGenerator = () => {
